@@ -1,0 +1,78 @@
+/* Font |Popins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.title h2 {
+  color: #14478d;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+/* Navbar start*/
+.header .navbar {
+  padding: 30px 0;
+}
+.header .navbar-brand img {
+  width: 277px;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  color: #ff0003;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+  padding: 5px 10px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #960002;
+  text-decoration: none;
+}
+
+/* Navbar category */
+
+.navCategory .navbar-brand {
+  margin-right: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navCategory .navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+  padding: 2px 5px;
+}
+
+/* Best vehicles */
+.grid-container-vehicles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.vehicles-info {
+  background-color: rgba(173, 167, 167, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+.vehicles-info img {
+  width: 284px;
+}
+.vehicles-info p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
