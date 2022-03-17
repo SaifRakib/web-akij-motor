@@ -6,6 +6,7 @@
   padding: 0;
   outline: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 /* Title */
@@ -61,6 +62,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  height: 672px;
 }
 .vehicles-info {
   background-color: rgba(173, 167, 167, 0.5);
@@ -75,4 +77,40 @@
   font-size: 16px;
   font-weight: 700;
   margin-top: 20px;
+}
+
+.vehicles-sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #005aa7;
+  height: 672px;
+  padding: 27px;
+  overflow: scroll;
+}
+.vehicles-sidebar-item {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+/* New vehicles released */
+.grid-release {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vehicle-release-button {
+  background-color: #ea2224;
+  color: #fff;
+  padding: 7px;
+  width: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 18px;
+  border-radius: 30px;
+  border: 2px solid #ea2224;
 }
