@@ -147,3 +147,144 @@
   grid-column-gap: 20px;
   color: #fff;
 }
+.servicingPartBackgroundImg {
+  background-color: #ccc;
+  height: 150px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.servicingPart2h6 {
+  color: #837575;
+  padding: 10px 20px;
+  background-color: #000;
+}
+/* Selection Vehicles */
+
+.selectVehicleBackground {
+  display: grid;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+.selectVehicleBackgroundImg p {
+  font-size: 22px;
+  text-align: center;
+  left: 50%;
+  color: #14478d;
+  margin-top: 50px;
+  font-weight: 600;
+}
+.selectVehicleBackground > div {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  width: 280px;
+  margin-left: 20px;
+}
+.selectVehicleBackgroundImg {
+  height: 300px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.selectVehicleBtn {
+  color: #fff;
+  background-color: #ea2224;
+  width: 150px;
+  border: 2px solid #ea2224;
+  border-radius: 10px;
+}
+
+/* Private vehcile */
+.privateVehicle {
+  background-color: #ea2224;
+  padding: 20px;
+  margin-top: 50px;
+}
+.PrivateVehicleInfo {
+  margin: 100px;
+}
+.PrivateVehicleInfo h2 {
+  color: #fff;
+}
+.PrivateVehicleInfo p {
+  color: #fff;
+}
+.PrivateVehicleInfo button {
+  background-color: #fff;
+  color: #bf0000;
+  width: 150px;
+  margin-top: 50px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+/* Blog */
+.diagonal {
+  width: 300px;
+  height: 50px;
+  background-color: #fb5d5e;
+  transform: skewX(-35deg);
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+}
+.diagonal > span {
+  transform: skewX(35deg);
+  color: #fff;
+  display: block;
+}
+.blogs img {
+  height: 250px;
+}
+/* Footer */
+.footer {
+  background: #000;
+  opacity: 1;
+  padding: 50px;
+}
+.FooterImage {
+  align-items: center;
+  text-align: center;
+  margin: auto auto 20px;
+}
+.flex-footer-cart {
+  display: flex;
+  margin-left: 2vw;
+  flex-flow: row nowrap;
+}
+.flex-footer-item {
+  width: 100px;
+}
+.flex-container-footer-link {
+  display: flex;
+  padding: 0 50px;
+  color: #fff;
+  margin-top: 20px;
+  flex-flow: column nowrap;
+}
+.flex-item-footer-link {
+  margin: 0;
+  padding: 10px;
+  color: #ddd;
+  font-size: 14px;
+  line-height: 13px;
+}
+.footer-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+.footer-link:hover {
+  color: #bf0000;
+}
